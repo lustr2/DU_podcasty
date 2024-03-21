@@ -1,10 +1,8 @@
 import React from 'react';
-import './podcasty.css';
+import './style.css';
 
 const Episode = ({num, title, guest}) => {
     return (
-        <div className="episodes-list">
-
             <div className="episode">
                 <div className="episode__num">{num}</div>
                 <div className="episode__body">
@@ -12,7 +10,6 @@ const Episode = ({num, title, guest}) => {
                     <div className="episode__guest">host: {guest}</div>
                 </div>
             </div>
-        </div>
     );
 }
 
